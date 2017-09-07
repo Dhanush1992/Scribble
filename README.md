@@ -10,7 +10,9 @@ Future Enhancements:
 - Undo and Redo functionality by keeping track of drawing context in a stack.
 - Saving the work done on canvas and being able to restore the same context to edit.
 - Separating the Drawing logic from viewController class instead of the current Massive View Controller.
+- Test cases: UITests, Unit Tests, logic tests and Code coverage.
 
 Dependencies: ChromaColorPicker 
               link: https://github.com/joncardasis/ChromaColorPicker
+              
 References: Ray Wenderlich
