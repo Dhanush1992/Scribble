@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ChromaColorPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-scribble.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-scribbleTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-scribbleUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>76A05933B1319C2B42DF5850B637D4E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A8F8697D619B489B0918EA7E0DEAECE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>99AA48135ECB557858428F797600458F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C76CD299CF2D537A0EF3A73A05958CC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

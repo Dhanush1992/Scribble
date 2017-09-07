@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48DDC12EC82A412A84C583D5 /* Pods_scribbleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E98990ADFA7EA0B58EB8B04 /* Pods_scribbleUITests.framework */; };
+		6EE6B92FE6D73380A91B4952 /* Pods_scribble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A78C88CF1658EF794B4591A /* Pods_scribble.framework */; };
 		C1250C791F5F7B6A005B2B63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1250C781F5F7B6A005B2B63 /* AppDelegate.swift */; };
 		C1250C7B1F5F7B6A005B2B63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1250C7A1F5F7B6A005B2B63 /* ViewController.swift */; };
 		C1250C7E1F5F7B6A005B2B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1250C7C1F5F7B6A005B2B63 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		C1250C831F5F7B6A005B2B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1250C811F5F7B6A005B2B63 /* LaunchScreen.storyboard */; };
 		C1250C8E1F5F7B6A005B2B63 /* scribbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1250C8D1F5F7B6A005B2B63 /* scribbleTests.swift */; };
 		C1250C991F5F7B6A005B2B63 /* scribbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1250C981F5F7B6A005B2B63 /* scribbleUITests.swift */; };
+		C1250CA71F5FB717005B2B63 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1250CA61F5FB717005B2B63 /* SettingsViewController.swift */; };
+		E1CF3DCE64D0B24AAB056BD0 /* Pods_scribbleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28277F262FC446C7909A84C /* Pods_scribbleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092528C8FD36A15991210499 /* Pods-scribbleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scribbleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scribbleUITests/Pods-scribbleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E98990ADFA7EA0B58EB8B04 /* Pods_scribbleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scribbleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23877607E60A0E94C41E6538 /* Pods-scribbleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scribbleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scribbleTests/Pods-scribbleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A78C88CF1658EF794B4591A /* Pods_scribble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scribble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28277F262FC446C7909A84C /* Pods_scribbleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scribbleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9A2402451CB969039DBF0B /* Pods-scribble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scribble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scribble/Pods-scribble.debug.xcconfig"; sourceTree = "<group>"; };
 		C1250C751F5F7B6A005B2B63 /* scribble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scribble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1250C781F5F7B6A005B2B63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1250C7A1F5F7B6A005B2B63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,11 @@
 		C1250C941F5F7B6A005B2B63 /* scribbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scribbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1250C981F5F7B6A005B2B63 /* scribbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scribbleUITests.swift; sourceTree = "<group>"; };
 		C1250C9A1F5F7B6A005B2B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1250CA61F5FB717005B2B63 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C1250CA81F5FBCED005B2B63 /* ChromaColorPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChromaColorPicker.framework; path = "../../Library/Developer/Xcode/DerivedData/scribble-ehbcrpoqbjicsxeujhghlyqarsjc/Build/Products/Debug-iphoneos/ChromaColorPicker/ChromaColorPicker.framework"; sourceTree = "<group>"; };
+		C9EE9A942AD008D324E1FC83 /* Pods-scribbleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scribbleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-scribbleTests/Pods-scribbleTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF8EBF797FB68B60737BD1D4 /* Pods-scribble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scribble.release.xcconfig"; path = "Pods/Target Support Files/Pods-scribble/Pods-scribble.release.xcconfig"; sourceTree = "<group>"; };
+		EA3CDDFB0D77CCDE020021C4 /* Pods-scribbleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scribbleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-scribbleUITests/Pods-scribbleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE6B92FE6D73380A91B4952 /* Pods_scribble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CF3DCE64D0B24AAB056BD0 /* Pods_scribbleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +85,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48DDC12EC82A412A84C583D5 /* Pods_scribbleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FC206E08BF4B678309E69ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1250CA81F5FBCED005B2B63 /* ChromaColorPicker.framework */,
+				5A78C88CF1658EF794B4591A /* Pods_scribble.framework */,
+				B28277F262FC446C7909A84C /* Pods_scribbleTests.framework */,
+				1E98990ADFA7EA0B58EB8B04 /* Pods_scribbleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C1250C6C1F5F7B6A005B2B63 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				C1250C8C1F5F7B6A005B2B63 /* scribbleTests */,
 				C1250C971F5F7B6A005B2B63 /* scribbleUITests */,
 				C1250C761F5F7B6A005B2B63 /* Products */,
+				DC53FC759B060C645A161917 /* Pods */,
+				1FC206E08BF4B678309E69ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +134,7 @@
 				C1250C7F1F5F7B6A005B2B63 /* Assets.xcassets */,
 				C1250C811F5F7B6A005B2B63 /* LaunchScreen.storyboard */,
 				C1250C841F5F7B6A005B2B63 /* Info.plist */,
+				C1250CA61F5FB717005B2B63 /* SettingsViewController.swift */,
 			);
 			path = scribble;
 			sourceTree = "<group>";
@@ -125,6 +157,19 @@
 			path = scribbleUITests;
 			sourceTree = "<group>";
 		};
+		DC53FC759B060C645A161917 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB9A2402451CB969039DBF0B /* Pods-scribble.debug.xcconfig */,
+				CF8EBF797FB68B60737BD1D4 /* Pods-scribble.release.xcconfig */,
+				23877607E60A0E94C41E6538 /* Pods-scribbleTests.debug.xcconfig */,
+				C9EE9A942AD008D324E1FC83 /* Pods-scribbleTests.release.xcconfig */,
+				092528C8FD36A15991210499 /* Pods-scribbleUITests.debug.xcconfig */,
+				EA3CDDFB0D77CCDE020021C4 /* Pods-scribbleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1250C9D1F5F7B6A005B2B63 /* Build configuration list for PBXNativeTarget "scribble" */;
 			buildPhases = (
+				22600393557643BA7F41FEF3 /* [CP] Check Pods Manifest.lock */,
 				C1250C711F5F7B6A005B2B63 /* Sources */,
 				C1250C721F5F7B6A005B2B63 /* Frameworks */,
 				C1250C731F5F7B6A005B2B63 /* Resources */,
+				67A2A1678DAF9E354B5A8FC1 /* [CP] Embed Pods Frameworks */,
+				F4626075E63B9B932E172ABF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1250CA01F5F7B6A005B2B63 /* Build configuration list for PBXNativeTarget "scribbleTests" */;
 			buildPhases = (
+				69F9382980F3F0C2CF4D476B /* [CP] Check Pods Manifest.lock */,
 				C1250C851F5F7B6A005B2B63 /* Sources */,
 				C1250C861F5F7B6A005B2B63 /* Frameworks */,
 				C1250C871F5F7B6A005B2B63 /* Resources */,
+				69C198EFA09368A87267FB99 /* [CP] Embed Pods Frameworks */,
+				D69B97CF121A8566E405D92F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1250CA31F5F7B6A005B2B63 /* Build configuration list for PBXNativeTarget "scribbleUITests" */;
 			buildPhases = (
+				C5BB6C28E3248918D7C837BE /* [CP] Check Pods Manifest.lock */,
 				C1250C901F5F7B6A005B2B63 /* Sources */,
 				C1250C911F5F7B6A005B2B63 /* Frameworks */,
 				C1250C921F5F7B6A005B2B63 /* Resources */,
+				40DE32D5E064E5ACA1B1AC22 /* [CP] Embed Pods Frameworks */,
+				FADB17FEBA129DDB0427E7EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +247,7 @@
 				TargetAttributes = {
 					C1250C741F5F7B6A005B2B63 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = A3T35WB49A;
+						DevelopmentTeam = XMGFPE3QLR;
 						ProvisioningStyle = Automatic;
 					};
 					C1250C881F5F7B6A005B2B63 = {
@@ -257,6 +311,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22600393557643BA7F41FEF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40DE32D5E064E5ACA1B1AC22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scribbleUITests/Pods-scribbleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67A2A1678DAF9E354B5A8FC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scribble/Pods-scribble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69C198EFA09368A87267FB99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scribbleTests/Pods-scribbleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69F9382980F3F0C2CF4D476B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5BB6C28E3248918D7C837BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D69B97CF121A8566E405D92F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scribbleTests/Pods-scribbleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4626075E63B9B932E172ABF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scribble/Pods-scribble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FADB17FEBA129DDB0427E7EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scribbleUITests/Pods-scribbleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1250C711F5F7B6A005B2B63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +456,7 @@
 			files = (
 				C1250C7B1F5F7B6A005B2B63 /* ViewController.swift in Sources */,
 				C1250C791F5F7B6A005B2B63 /* AppDelegate.swift in Sources */,
+				C1250CA71F5FB717005B2B63 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,32 +606,39 @@
 		};
 		C1250C9E1F5F7B6A005B2B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9A2402451CB969039DBF0B /* Pods-scribble.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A3T35WB49A;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XMGFPE3QLR;
 				INFOPLIST_FILE = scribble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dhanush.scribble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		C1250C9F1F5F7B6A005B2B63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8EBF797FB68B60737BD1D4 /* Pods-scribble.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A3T35WB49A;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XMGFPE3QLR;
 				INFOPLIST_FILE = scribble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dhanush.scribble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		C1250CA11F5F7B6A005B2B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23877607E60A0E94C41E6538 /* Pods-scribbleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +654,7 @@
 		};
 		C1250CA21F5F7B6A005B2B63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9EE9A942AD008D324E1FC83 /* Pods-scribbleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +670,7 @@
 		};
 		C1250CA41F5F7B6A005B2B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092528C8FD36A15991210499 /* Pods-scribbleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = A3T35WB49A;
@@ -483,6 +685,7 @@
 		};
 		C1250CA51F5F7B6A005B2B63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3CDDFB0D77CCDE020021C4 /* Pods-scribbleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = A3T35WB49A;
@@ -514,6 +717,7 @@
 				C1250C9F1F5F7B6A005B2B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1250CA01F5F7B6A005B2B63 /* Build configuration list for PBXNativeTarget "scribbleTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +726,7 @@
 				C1250CA21F5F7B6A005B2B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1250CA31F5F7B6A005B2B63 /* Build configuration list for PBXNativeTarget "scribbleUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +735,7 @@
 				C1250CA51F5F7B6A005B2B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
